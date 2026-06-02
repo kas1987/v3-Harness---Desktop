@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "v3_Harness___Desktop",
+  "project_id": "ddac5059-39fe-4889-b695-45a9a1e7ebff"
+}
