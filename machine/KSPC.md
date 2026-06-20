@@ -21,9 +21,12 @@
 
 ## Junctions live on this machine
 
-- `C:\chromatic-harness-v2` → `E:\chromatic-harness-v2`
-- `D:\chromatic-harness-v2` → `E:\chromatic-harness-v2`
-- *(v3 junctions added per same pattern; see decisions/2026-06-02_initial-topology.md)*
+- `C:\chromatic-harness-v2` → `E:\.02_chromatic-harness-v2` *(corrected 2026-06-20)*
+- `D:\chromatic-harness-v2` → `E:\.02_chromatic-harness-v2` *(corrected 2026-06-20)*
+- Old `E:\chromatic-harness-v2` empty stub removed 2026-06-20
+- `HARNESS_ROOT` env var set to `E:\.02_chromatic-harness-v2` (user-level, persistent)
+
+**Note:** `C:\Users\kas41\chromatic-harness-v2` is `Claude_Master` repo — NOT the harness. Do not confuse.
 
 ## Critical PATH entries
 

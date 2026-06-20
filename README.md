@@ -17,15 +17,15 @@ The actual harness **code** still lives at `kas1987/chromatic-harness-v2`. This 
 
 - Not a place to land harness runtime changes (those go to v2)
 - Not a place to fork v2's code (would create sync hell)
-- Not shared with the laptop (laptop has its own workbook or none)
+- Not shared with the laptop (laptop has `v3-Harness---Laptop`)
 
 ## Topology
 
 | Layer | Repo / Path | Owner | Notes |
 |-------|-------------|-------|-------|
-| Harness runtime | `kas1987/chromatic-harness-v2` → `E:\chromatic-harness-v2` | Shared between machines | Both desktop + laptop clone this; PRs go upstream |
+| Harness runtime | `kas1987/chromatic-harness-v2` → `E:\.02_chromatic-harness-v2` (aliases: `C:\`, `D:\chromatic-harness-v2`) | Shared between machines | Both desktop + laptop clone this; PRs go upstream |
 | Desktop workbook | `kas1987/v3-Harness---Desktop` → `E:\v3-Harness---Desktop` | Desktop only (KSPC) | bd DB, EPICs, rollout notes, machine state |
-| Laptop workbook | *(separate, TBD)* | Laptop only | Mirror pattern if desired |
+| Laptop workbook | `kas1987/v3-Harness---Laptop` → `C:\v3-Harness---Laptop` | Laptop only | Created 2026-06-20 — mirror pattern |
 
 ## Directory layout
 
